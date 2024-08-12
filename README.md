@@ -1,5 +1,3 @@
----
-
 # Krishi Banijjo - E-Commerce Website
 
 **Project Duration:** February 2024 – June 2024
@@ -33,7 +31,7 @@ Krishi Banijjo is an E-Commerce platform designed to sell various agricultural p
 
 2. **Setup the Database:**
    - Import the provided SQL file into your MySQL database.
-   - Update the database configuration in `config.php` file with your MySQL credentials.
+   - Update the database configuration in the `config.php` file with your MySQL credentials.
 
 3. **Run the Server:**
    - Use a local server like XAMPP or WAMP to host the website.
@@ -60,20 +58,20 @@ E-Commerce-Website-Krishi-Banijjo/
 ├── config/
 │   └── config.php           # Database configuration file
 └── assets/
-    ├── css/
-    ├── js/
-    └── images/
+    ├── css/                 # CSS files
+    ├── js/                  # JavaScript files
+    └── images/              # Images used in the website
 ```
 
 ## Usage
 
 - **For Users:**
-  - Register and login to explore and purchase products.
+  - Register and log in to explore and purchase products.
   - Add items to your cart and proceed to checkout.
   - Track your orders through the user dashboard.
 
 - **For Admins:**
-  - Login to the admin panel to manage the website content.
+  - Log in to the admin panel to manage the website content.
   - Add, edit, or remove products from the inventory.
   - View and process customer orders.
 
