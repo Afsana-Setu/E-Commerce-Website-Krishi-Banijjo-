@@ -1,66 +1,92 @@
-# Krishi Banijjo
+---
 
-## Description
-**Krishi Banijjo** is an E-Commerce website designed to sell a variety of agricultural products. The platform aims to connect farmers with consumers, offering a wide range of products directly from the producers. This project was developed from February 2024 to June 2024.
+# Krishi Banijjo - E-Commerce Website
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Project Link](#project-link)
-- [Contributing](#contributing)
-- [License](#license)
-- [Authors](#authors)
+**Project Duration:** February 2024 – June 2024
 
-## Installation
-To set up this project locally, follow these steps:
+## Project Overview
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Afsana-Setu/E-Commerce-Website-Krishi-Banijjo-.git
-   cd E-Commerce-Website-Krishi-Banijjo-
-   ```
-
-2. **Set up the database:**
-   - Import the provided SQL file (`krishi_banijjo.sql`) into your MySQL database.
-   - Update the database connection settings in the `config.php` file with your database credentials.
-
-3. **Start a local server:**
-   - You can use XAMPP, WAMP, or any other local server environment.
-   - Place the project folder in the server's root directory (e.g., `htdocs` for XAMPP).
-
-4. **Run the project:**
-   - Open your web browser and go to `http://localhost/E-Commerce-Website-Krishi-Banijjo-`.
-
-## Usage
-Once the website is running, you can:
-
-- Browse various agricultural products.
-- Add products to the cart.
-- Proceed to checkout.
-- View order history.
+Krishi Banijjo is an E-Commerce platform designed to sell various agricultural products. This website serves as a marketplace for farmers and agricultural businesses to reach consumers directly. The platform offers a wide range of products, including fresh produce, seeds, farming tools, and organic fertilizers.
 
 ## Features
-- **User Registration and Login:** Users can create an account and log in to access personalized features.
-- **Product Listings:** A variety of agricultural products categorized for easy navigation.
-- **Shopping Cart:** Users can add, remove, and update products in the cart.
-- **Order Management:** Complete orders and track them through the user dashboard.
-- **Admin Panel:** Manage products, orders, and user accounts.
 
-## Project Link
-The project is hosted on GitHub and can be accessed [here](https://github.com/Afsana-Setu/E-Commerce-Website-Krishi-Banijjo-).
+- **Product Listings:** Users can browse through different categories of agricultural products.
+- **Search and Filter:** Advanced search functionality to filter products by category, price, and availability.
+- **Shopping Cart:** Users can add products to a cart and manage their selections before making a purchase.
+- **User Authentication:** Secure user registration and login system.
+- **Order Management:** Users can view their order history and track the status of current orders.
+- **Admin Panel:** Admins can manage products, categories, orders, and users.
+- **Responsive Design:** The website is mobile-friendly and accessible from various devices.
 
-## Contributing
-Contributions are welcome! Please follow these steps:
+## Tools & Technologies
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a Pull Request.
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
+
+## Installation Guide
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Afsana-Setu/E-Commerce-Website-Krishi-Banijjo-.git
+   ```
+
+2. **Setup the Database:**
+   - Import the provided SQL file into your MySQL database.
+   - Update the database configuration in `config.php` file with your MySQL credentials.
+
+3. **Run the Server:**
+   - Use a local server like XAMPP or WAMP to host the website.
+   - Place the project folder in the `htdocs` directory of your server.
+
+4. **Access the Website:**
+   - Open your web browser and go to `http://localhost/E-Commerce-Website-Krishi-Banijjo/`.
+
+## Project Structure
+
+```bash
+E-Commerce-Website-Krishi-Banijjo/
+│
+├── index.php                # Main landing page
+├── login.php                # User login page
+├── register.php             # User registration page
+├── products.php             # Product listing page
+├── cart.php                 # Shopping cart page
+├── checkout.php             # Checkout page
+├── admin/
+│   ├── dashboard.php        # Admin dashboard
+│   ├── manage_products.php  # Manage products page
+│   └── manage_orders.php    # Manage orders page
+├── config/
+│   └── config.php           # Database configuration file
+└── assets/
+    ├── css/
+    ├── js/
+    └── images/
+```
+
+## Usage
+
+- **For Users:**
+  - Register and login to explore and purchase products.
+  - Add items to your cart and proceed to checkout.
+  - Track your orders through the user dashboard.
+
+- **For Admins:**
+  - Login to the admin panel to manage the website content.
+  - Add, edit, or remove products from the inventory.
+  - View and process customer orders.
+
+## Contributions
+
+Contributions to Krishi Banijjo are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes. Ensure your code follows best practices and is well-documented.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Authors
-- **Afsana Setu** - *Project Developer* - [GitHub Profile](https://github.com/Afsana-Setu)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Project Link:** [Krishi Banijjo on GitHub](https://github.com/Afsana-Setu/E-Commerce-Website-Krishi-Banijjo-)
+
+---
